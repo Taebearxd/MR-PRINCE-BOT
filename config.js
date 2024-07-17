@@ -3,32 +3,16 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 import fs from 'fs'
 
-import dotenv from 'dotenv'
-dotenv.config()
 
-const ownervb = process.env.OWNERS;
-if (!ownervb){
-   throw new Error("OWNERS env is not set");
-}
+global.owner = [917439317360];
 
-const ownerlist = ownervb.split(';');
-
-global.owner = [];
-for (let i = 0; i < ownerlist.length; i += 2) {
-    const owner = [
-        ownerlist[i],            
-        ownerlist[i + 1],         
-        true                        
-    ];
-    global.owner.push(owner);
-}
 
 //💌------------------------------------------💌
 
 
 //💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
-global.prems = ['']
+global.mods = ['917439317360'] 
+global.prems = ['917439317360']
 global.allowed = ['']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
@@ -125,23 +109,23 @@ global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
 
 //Sticker WM
 global.botname = process.env.BOT_NAME
-global.princebot = '🛡️𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋🛡️'
-global.packname = 'Prince♥️' 
-global.author = 'Prince♥️' 
-global.princeig = 'https://www.instagram.com' 
-global.princegp = 'https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS'
+global.princebot = '𝚫𝐃𝐑𝐈𝚵𝚴 - 𝚩𝚯𝚻'
+global.packname = '𝆺𝅥 𝇁 ֹ 𝄄 س ꓹ 𝚫𝐃𝐑𝐈𝚵𝚴 𓂃🧣' 
+global.author = '🐻' 
+global.princeig = 'https://www.instagram.com/_.adrienxd' 
+global.princegp = 'https://chat.whatsapp.com/EZjCgLTJfRd8LHOyVC163u'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
 global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
 global.princeyt = 'https://youtube.com/'
-global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'
+global.Princelog = 'https://imgur.com/a/CF9SMuh.jpeg'
 global.thumb = fs.readFileSync('./Assets/Prince.png')
 //💌------------------------------------------💌
 
 
 
 //Reactions
-global.wait = '*♻️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝙵𝙸𝙻𝙴 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
-global.imgs = '*🖼️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 ɪᴍᴀɢᴇs 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*♻️ _𝗥𝘂𝗸𝗼 𝘇𝗮𝗿𝗮 𝘀𝗮𝗯𝗮𝗿 𝗸𝗮𝗿𝗼𝗼..._*\n*▰▰▰▱▱▱▱▱*'
+global.imgs = '*🖼️ _𝗗𝗵𝘂𝗻𝗱 𝗿𝗮𝗵𝗮 𝗵𝘂 𝗿𝘂𝗸..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '♻️'
 global.dmoji = '🤭'
 global.done = '✅'
